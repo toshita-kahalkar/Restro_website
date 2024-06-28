@@ -1,0 +1,129 @@
+.menubar{
+    background-color: sandybrown;
+    color: rgb(163, 74, 74);
+    position: sticky;
+}
+.contact{
+    background-color: sandybrown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+h2{
+ font-size: x-large;
+ font-weight: bold;
+}
+
+.leftsideSection {
+    margin-left: 160px;
+    margin-top: 70px;
+    font-size: large;
+}
+
+.rightsideSection {
+    margin: 0px;
+    padding: 0px;
+    width: 58%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -58px;
+}
+
+
+form {
+    background-color: rgb(244, 130, 48);
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 201px;
+    padding: 11vw 5vw;
+    width: 160%;
+    max-width: 600px;
+    border-radius: 30px;
+}
+
+
+
+
+form input {
+    width: 85%;
+}
+
+form textarea{
+    width: 85%;
+}
+
+
+form input,
+form textarea {
+    border: 0;
+    margin: 10px 0px;
+    padding: 20px 92px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+form button {
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+form button:hover {
+    color: #fff;
+    background: green;
+    font-size: 1rem;
+}
+
+form h3 {
+    color: #0a0101;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+iframe {
+    margin: 0;
+    padding: 5%;
+    width: 190%;
+    height: 290px;
+}
+
+
+.contact-menu {
+    text-align: center;
+    margin: 40px;
+}
+
+.contact-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.contact-menu a {
+    text-decoration: white;
+    color: white;
+}
+
+.contact-menu i {
+    margin-right: 5px;
+}

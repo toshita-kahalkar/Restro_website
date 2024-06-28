@@ -1,0 +1,364 @@
+<html>
+  <head>
+    <title>RESTAURANT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="" rel="stylesheet" type="./style.css">
+  <style>/* ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.top-0{top:0px}.col-span-2{grid-column:span 2 / span 2}.row-span-2{grid-row:span 2 / span 2}.mx-auto{margin-left:auto;margin-right:auto}.my-8{margin-top:2rem;margin-bottom:2rem}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.me-3{margin-inline-end:0.75rem}.ml-3{margin-left:0.75rem}.mr-5{margin-right:1.25rem}.mt-1{margin-top:0.25rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}.mt-8{margin-top:2rem}.block{display:block}.flex{display:flex}.grid{display:grid}.aspect-square{aspect-ratio:1 / 1}.h-12{height:3rem}.h-32{height:8rem}.h-56{height:14rem}.h-full{height:100%}.min-h-48{min-height:12rem}.min-h-96{min-height:24rem}.w-12{width:3rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.resize-none{resize:none}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.content-center{align-content:center}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-center{justify-content:center}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-x-6{column-gap:1.5rem}.gap-y-12{row-gap:3rem}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-16 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(4rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(4rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.self-stretch{align-self:stretch}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-0{border-width:0px}.border-8{border-width:8px}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219 / var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity))}.bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128 / var(--tw-bg-opacity))}.bg-orange-200{--tw-bg-opacity:1;background-color:rgb(254 215 170 / var(--tw-bg-opacity))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.bg-rose-200{--tw-bg-opacity:1;background-color:rgb(254 205 211 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-cover{background-size:cover}.bg-center{background-position:center}.object-cover{object-fit:cover}.p-10{padding:2.5rem}.p-2{padding:0.5rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-24{padding-top:6rem;padding-bottom:6rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.italic{font-style:italic}.leading-6{line-height:1.5rem}.leading-7{line-height:1.75rem}.leading-8{line-height:2rem}.leading-relaxed{line-height:1.625}.tracking-widest{letter-spacing:0.1em}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity))}.text-red-900{--tw-text-opacity:1;color:rgb(127 29 29 / var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21 / var(--tw-text-opacity))}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-200{transition-duration:200ms}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.hover\:bg-red-600:hover{--tw-bg-opacity:1;background-color:rgb(220 38 38 / var(--tw-bg-opacity))}.hover\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.focus\:border-red-500:focus{--tw-border-opacity:1;border-color:rgb(239 68 68 / var(--tw-border-opacity))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-red-200:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(254 202 202 / var(--tw-ring-opacity))}@media (min-width: 640px){.sm\:mr-10{margin-right:2.5rem}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:flex-nowrap{flex-wrap:nowrap}.sm\:p-10{padding:2.5rem}.sm\:px-12{padding-left:3rem;padding-right:3rem}}@media (min-width: 768px){.md\:col-start-1{grid-column-start:1}.md\:col-start-3{grid-column-start:3}.md\:row-start-1{grid-row-start:1}.md\:row-start-3{grid-row-start:3}.md\:mb-0{margin-bottom:0px}.md\:ml-auto{margin-left:auto}.md\:mt-0{margin-top:0px}.md\:w-1\/2{width:50%}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:px-16{padding-left:4rem;padding-right:4rem}.md\:py-8{padding-top:2rem;padding-bottom:2rem}}@media (min-width: 1024px){.lg\:mt-0{margin-top:0px}.lg\:w-1\/2{width:50%}.lg\:w-1\/3{width:33.333333%}.lg\:w-2\/3{width:66.666667%}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}}@media (min-width: 1280px){.xl\:col-span-2{grid-column:span 2 / span 2}.xl\:col-span-3{grid-column:span 3 / span 3}.xl\:grid-cols-5{grid-template-columns:repeat(5, minmax(0, 1fr))}.xl\:text-left{text-align:left}}</style></head>
+  
+  <body>
+    <!--start navbar -->
+    <header  class="menubar" style="position: sticky;">
+      <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="/">
+          <span class="ml-3 text-xl italic text-red-900 font-bold" >THE CAFE &amp;  ROOF-TOP RESTAURANT</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center" style="color: white;">
+          <a class="mr-5 hover:text-gray-900" href="#">Home</a>
+          <a class="mr-5 hover:text-gray-900" href="#Page2">About Us</a>
+          <a class="mr-5 hover:text-gray-900" href="#Page3">Menu</a>
+          <a class="mr-5 hover:text-gray-900" href="#Page4">Gallery</a>
+          <a class="mr-5 hover:text-gray-900" href="#Page5">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+    <!-- end navbar -->
+    <!-- start banner -->
+    <div id="Page1" class="section">
+      <img src="/img/bg1.jpg" alt="" style="width: 100%; height: 91%;">
+    </div>
+    <!-- end banner -->
+    <!-- start about -->
+    <section id="Page2" class="p-6 bg-orange-200 text-gray-800">
+      <div class="container grid gap-6 mx-auto text-center lg:grid-cols-2 xl:grid-cols-5">
+        <div class="w-full px-6 py-10 rounded-md sm:px-12 md:px-16 xl:col-span-2 bg-orange-200">
+          <span class="block mb-2 text-3xl font-semibold text-red-600">About Us</span>
+          <h1 class="text-3xl font-extrabold text-gray-900">We speak the Good Food language</h1>
+          <p class="my-8">
+            <span class="font-medium text-gray-900">The Cafe &amp; Roof Top Restaurant</span> restaurant is located at Bhandara near J. M. patel college
+            This fine-dining multi-cuisine restaurant has elegant yet simple indoor ambience with a beautiful outside view
+            and they also have terrace dining area too.
+          </p>
+          <section novalidate="" action="" class="self-stretch space-y-3">
+            <p class="my-8">
+              <span class="font-medium text-gray-900">The Cafe </span> has been a prime location to celebrate Kids
+              Birthday Party, Birthday Party, Anniversary and many other events.
+              Restaurant provides numerous facilities like Power Backup, Lift, Air Condition, In House Catering and many
+              more which ensures that your event is successful.
+            </p>
+        </section>
+        </div>
+        <img src="/img/y1.avif" alt="" class="object-cover w-full rounded-full xl:col-span-3 border-8 border-white">
+      </div>
+    </section>
+    <!-- end about -->
+    <!-- start menu -->
+    <section id="Page3" class="py-6 bg-rose-200 text-gray-800">
+      <div class="container p-4 mx-auto space-y-16 sm:p-10">
+        <div class="space-y-4">
+          <h3 class="block mb-2 text-3xl font-semibold text-red-600">Our Menu</h3>
+          <p class="max-w-2xl text-gray-600">Even if you're not a great chef, there's nothing to stop you understanding
+            the difference between what tastes good and what doesn't.</p>
+        </div>
+        <div class="grid w-full grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/s1.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Fry Chicken</h4>
+              <p class="text-sm text-gray-600">₹380</p>
+  
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/s5.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Haji Tikka</h4>
+              <p class="text-sm text-gray-600">₹416</p>
+  
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/s4.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Tanduri Soya Chaap</h4>
+              <p class="text-sm text-gray-600">₹639</p>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/s3.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Beetroot Chops</h4>
+              <p class="text-sm text-gray-600">₹255</p>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/s6.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Veg Tikki</h4>
+              <p class="text-sm text-gray-600">₹421</p>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/m3.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Matka Biryani</h4>
+              <p class="text-sm text-gray-600">₹849</p>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/m5.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Chicken Masala</h4>
+              <p class="text-sm text-gray-600">₹300</p>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/m6.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Tikka Biryani</h4>
+              <p class="text-sm text-gray-600">₹345</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid w-full grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+  
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/m7.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Spinach Paneer</h4>
+              <p class="text-sm text-gray-600">₹225</p>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/m8.jpeg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Korean Stir Fry</h4>
+              <p class="text-sm text-gray-600">₹411</p>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/d7.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Healthy Tea</h4>
+              <p class="text-sm text-gray-600">₹239</p>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/d8.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Turkish Tea</h4>
+              <p class="text-sm text-gray-600">₹399</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid w-full grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/d2.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Cappuccino</h4>
+              <p class="text-sm text-gray-600">₹269</p>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/d3.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Cocktail</h4>
+              <p class="text-sm text-gray-600">₹300</p>
+  
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/d5.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Smooth Tea</h4>
+              <p class="text-sm text-gray-600">₹222</p>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <img alt="" class="object-cover h-56 mx-auto mb-4 bg-center border-8 rounded-full bg-gray-500" src="/img/d6.jpg">
+            <div class="flex flex-col items-center">
+              <h4 class="text-xl font-semibold">Vodka Beer</h4>
+              <p class="text-sm text-gray-600">₹540</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end menu -->
+    <!-- start gallery -->
+    <section id="Page4" class="py-6 bg-orange-200 text-gray-900">
+      <h3 class="block mb-2 font-semibold text-3xl text-red-600 text-center">Our Gallery</h3>
+      <div class="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
+        <img src="/img/g1.jpg" alt="" class="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 bg-gray-500 aspect-square">
+        <img alt="" class="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="/img/g3.jpg">
+        <img alt="" class="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="/img/g7.jpg">
+        <img alt="" class="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="/img/g8.jpg">
+        <img alt="" class="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="/img/g4.jpg">
+        <img alt="" class="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="/img/g5.jpg">
+        <img alt="" class="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="/img/d6.jpg">
+        <img alt="" class="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="/img/s5.jpg">
+        <img alt="" class="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square" src="/img/g6.jpg">
+        <img src="/img/g2.jpg" alt="" class="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 bg-gray-500 aspect-square">
+      </div>
+
+
+    </section>
+    <!-- end gallery -->
+    <!-- start testimonial -->
+    <section class="bg-orange-200 text-gray-800" style="background-image: url(/img/s5\ \(1\).jpg);">
+      <div class="container px-6 py-12 mx-auto">
+        <div class="grid items-center gap-4 xl:grid-cols-5">
+          <div class="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
+            <h2 class="text-3xl font-semibold text-yellow-400">Our Testimonial</h2>
+          </div>
+          <div class="p-6 xl:col-span-3">
+            <div class="grid gap-4 md:grid-cols-2">
+              <div class="grid content-center gap-4">
+                <div class="p-6 rounded shadow-md bg-gray-50">
+                  <p>Great food at reasonable prices. Great service and the owners are terrific. Best Chicken Saltimbocca
+                    in town. Always a great special every day. And don't forget to buy the great Pietro's salad dressing
+                    by the bottle.</p>
+                  <div class="flex items-center mt-4 space-x-4">
+                    <img src="https://source.unsplash.com/50x50/?portrait?1" alt="" class="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500">
+                    <div>
+                      <p class="text-lg font-semibold">Mary Midha</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-6 rounded shadow-md bg-gray-50">
+                  <p>I love this place great food , great atmosphere and a great staff. Very accommodating and great
+                    service. Do yourself a favor and treat yourself here you won't be sorry.</p>
+                  <div class="flex items-center mt-4 space-x-4">
+                    <img src="https://source.unsplash.com/50x50/?portrait?2" alt="" class="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500">
+                    <div>
+                      <p class="text-lg font-semibold">Sandy Sharma</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid content-center gap-4">
+                <div class="p-6 rounded shadow-md bg-gray-50">
+                  <p>First time here and we loved it!! Service was amazing and the bussers were right there for anything
+                    we needed. We never had to ask for anything. Great job Pietro's. We had such great service I forgot to
+                    mention the food was yummy!!</p>
+                  <div class="flex items-center mt-4 space-x-4">
+                    <img src="https://source.unsplash.com/50x50/?portrait?3" alt="" class="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500">
+                    <div>
+                      <p class="text-lg font-semibold">Amanda Shahu</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-6 rounded shadow-md bg-gray-50">
+                  <p>This was my first visit to Pietro’s and it was a wonderful experience! The food was delicious, the
+                    service was friendly and efficient and the atmosphere was great. I highly recommend it!</p>
+                  <div class="flex items-center mt-4 space-x-4">
+                    <img src="https://source.unsplash.com/50x50/?portrait?4" alt="" class="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500">
+                    <div>
+                      <p class="text-lg font-semibold">Tina Datta</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END testimonial -->
+    <!-- end contact-->
+    <section class="contact">
+        <div class="leftsideSection">
+            <h2>Email </h2>
+            <p>toshitakahalkar@gmail.com</p><br>
+            <h2>Phone no. </h2>
+            <p>9325604932</p><br>
+            <h2>Address </h2>
+            <p>Bhandara, Maharashtra.</p><br>
+            <h3>Embeded Location Map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7441.457845519591!2d79.65333389941104!3d21.16318354260895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sthe%20cafe%20bhandara%20near%20j%20m%20patel%20college!5e0!3m2!1sen!2sin!4v1719484181802!5m2!1sen!2sin" width="100%" height="100%" style="border:0 borderwidth:0 position:absolute padding:0 margin:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+            </iframe>
+
+        </div>
+
+        <div class="rightsideSection">
+            <form>
+                <h3>CONTACT</h3>
+                <input type="=text" name="name" class="input" placeholder="Enter Your Name">
+                <input type="=Email" name="Email" class="input" placeholder="Enter Your Email">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                <button type="=Submit">SEND</button>
+            </form>
+        </div>
+    </section>
+    <!-- end contact-->
+    <!-- start footer -->
+    <footer id="Page5" class="text-center text-lg-start bg-body-tertiary text-muted">
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>DINE OUT | RESTRO &amp; CAFE
+              </h6>
+              <p>
+                THE CAFE  &amp; ROOF-TOP RESTAURANT is known for creating unforgettable food experiences. We believe that food is
+                therapy and try to put up a smile on your face with our culinary skills.
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Our Addresses
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">BHANDARA</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">BHANDARA MAHARASHTRA</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact Details</h6>
+              <p>
+                <a href="#"><i class="fas fa-envelope me-3"></i>
+                  thecafe@hotels.com</a>
+              </p>
+              <p>
+                <a href="#"><i class="fas fa-envelope me-3"></i>
+                  www.thecafe.org</a>
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+  
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: saddlebrown; color: white;">
+        © 2024 -
+        <a class="text-reset" href="https://mdbootstrap.com/">The Cafe &amp; Roof-top restaurant | All Rights Reserved.</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- end footer -->
+  
+  
+  </body></html>
